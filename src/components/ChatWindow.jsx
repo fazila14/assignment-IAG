@@ -10,7 +10,7 @@ const ChatWindow = () => {
   const [slides, setSlides] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = "AIzaSyDf_-o706fzZ3YfA_QshseObM4yvaI9jug"; // Replace with your key
+  const API_KEY = "AIzaSyAdd3Kc5Dq5F90Md2GnSB8kdFkiIcR6vUg"; // Replace with your key
 
   const handleSend = async () => {
     if (!input.trim()) return;
