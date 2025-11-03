@@ -4,9 +4,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>AI Slide Builder</h1>
-      <ChatWindow />
+    <div className="app-container">
+      <header className="header">
+        <h1>MagicSlides AI</h1>
+        <p>Generate professional PowerPoint slides in seconds with AI</p>
+      </header>
+      <main className="main-content">
+        <ChatWindow />
+      </main>
+      <footer className="footer">
+        <p>Powered by Gemini 2.0 Flash • Free Tier: 250 requests/day</p>
+      </footer>
     </div>
   );
 }
