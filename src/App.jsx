@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>MagicSlides AI</h1>
+        <h1>IAG AI</h1>
         <p>Generate professional PowerPoint slides in seconds with AI</p>
       </header>
       <main className="main-content">
